@@ -1,0 +1,278 @@
+	@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color:#555;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  margin:0px;
+  padding: 0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: "Lato";
+	font-weight: 300;
+	color:#333;
+}
+
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+img{
+	width: 50px;
+	height: 50px;
+}
+.row{
+	margin: 0px;
+}
+.centered{
+	text-align: center;
+}
+.container{
+	padding: 0px;
+}
+.col-lg-4{
+	padding: 0px;
+}
+.col-lg-3{
+	padding: 0px;
+}
+#events .col-lg-12{
+	padding: 400px 0px 0px 0px;
+}
+a {
+	color: #7b7b7b;
+}
+
+a:hover, a:focus {
+	color: #FF0000;
+	text-decoration: none;
+	outline:0;
+}
+#logo a:hover{
+	color:#FFFFFF;
+}
+
+hr{
+	display: block;
+	height:1px;
+	border:0;
+	border-top:1px solid  #ccc;
+	margin:1em 0;
+	padding:0;
+}
+.navbar{
+	width: 100%;
+	font-weight: 700;
+	padding: 10px 30px;
+}
+
+#menu a:hover{
+	color: #7b7b7b;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.navbar-brand{
+	padding: 0px;
+	margin:0px;
+}
+#logo{
+ 	background: url('../Site/images/voc4.png') no-repeat  center top;
+ 	 background-attachment: fixed;
+    background-size: cover;
+ 	margin-top:0px;
+ 	padding-top:0;
+ 	text-align:center;
+ 	background-attachment: relative;
+ 	background-position: center center;
+ 	min-height: 1000px;
+ 	width:100%;
+ 	
+
+ 	-webkit-background-size:cover;
+ 	-moz-background-size:cover;
+ 	-o-background-size:cover;
+ 	background-size:cover;
+ }
+ #logo h1{
+ 	margin-top:94px;
+    margin-right:900px;
+ 	color:white;
+ 	font-size:30px;
+ 	font-weight: 300;
+ 	letter-spacing: 2px;
+}
+#slider .d-block {
+  padding: 0px;
+  height: 1000px;
+  width: 100%; }
+
+
+#about a:hover{
+	color:#7F7F7F;
+}
+.bol{
+  font-size:17px;
+  text-align: left;
+}
+.collection-text{
+	font-family: "Lato";
+	margin: 50px 250px;
+	color:#FFFFFF;
+	font-weight: ;
+	font-size: 18px;
+ }
+ #about{
+ 	background: url('../Site/images/history.png') no-repeat  center ;
+ 	background-size: cover;
+ 	 background-attachment: fixed;
+ 	margin-top:0;
+ 	padding-top:0;
+ 	text-align:center;
+ 	background-attachment: absolute;
+ 	background-position: center center;
+ 	width:100%;
+    opacity: 1;
+
+
+ 	-webkit-background-size:cover;
+ 	-moz-background-size:cover;
+ 	-o-background-size:cover;
+ 	background-size:cover;
+ }
+#contacts a:hover{
+	color:#FFFFFF;
+}
+ #contacts{
+ 	background: url('../Site/images/guitar2.png') no-repeat  center top;
+ 	margin-top:0px;
+ 	padding-top:0;
+ 	text-align: center;
+ 	background-attachment: fixed;
+ 	background-position: center center;
+ 	min-height: 1000px;
+ 	width:100%;
+ 	opacity: 0.9;
+
+ 	-webkit-background-size:cover;
+ 	-moz-background-size:cover;
+ 	-o-background-size:cover;
+ 	background-size:cover;
+ }
+#contacts .col-lg-12 {
+	padding: 400px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+#contacts .col-lg-12 h1{
+	font-size: 80px;
+	color:#878787;
+}
+#contacts .col-lg-12 a{
+	  letter-spacing: 160px;
+	  font-size: 70px;
+	  text-align: center;
+}
+.fa-at{
+margin-right: -160px;
+}
+.btn-outline-info{
+	width: 600px;
+}
+#events a:hover{
+	color:#FFFFFF;
+}
+#events{
+ 	background: url('../Site/images/guitar.png') no-repeat  center top;
+ 	margin-top:0px;
+ 	padding-top:0;
+ 	text-align: center;
+ 	background-attachment: fixed;
+ 	background-position: center center;
+ 	min-height: 1000px;
+ 	width:100%;
+ 	opacity: 0.9;
+
+ 	-webkit-background-size:cover;
+ 	-moz-background-size:cover;
+ 	-o-background-size:cover;
+ 	background-size:cover;
+ }
+#events h1 {
+	font-family: "Lato";
+	color:#fff;
+}
+#events  p{
+	font-size: 30px;
+	color:#FFF;
+	padding-top: 50px;
+	letter-spacing: 1px;
+	
+}
+#events .btn-outline-secondary{
+	border-color: #fff;
+	border-radius: 60px;
+	margin-top: 40px;
+	width: 280px;
+	height: 60px;
+	font-size: 25px;
+	opacity: 0.7;
+}
+#events font{
+	color:#fff;
+}
+#events  a:hover, a:focus {
+	color: #111111;
+	text-decoration: none;
+	outline:0;
+}
+#links{
+	padding:50px 0px; 
+}
+#links .col-lg-4 {
+    display:inline;
+}
+#links .col-lg-4  h2{
+	font-size:30px;
+}
+#links .col-lg-4 .fa-instagram, .fa-google, .fa-youtube-play{
+	font-size: 50px;
+}
+#footer{
+	float:center;
+	margin-top:0px;
+	background: #2d2d2d;
+	position: absolute;
+	width:100%;
+}
+.pr{
+	text-align:left;
+	float:left;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}#footer a:hover{
+	color:#BDBDBD;
+}
+#footer i{
+	color: #bdbdbd;
+	font-size: 15px;
+	padding:15px;
+}
+#footer i:hover{
+	color:#ff7878;
+}
+@media screen and (min-width: 300px) {
+
+}
